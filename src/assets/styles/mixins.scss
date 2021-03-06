@@ -1,0 +1,26 @@
+@mixin center() {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin fullCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin fixedSize($w, $h) {
+  width: $w;
+  max-width: $w;
+  min-width: $w;
+
+  height: $h;
+  max-height: $h;
+  min-height: $h;
+}
+
+@mixin text($size, $weight, $color) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}

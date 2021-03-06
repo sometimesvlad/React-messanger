@@ -1,0 +1,19 @@
+@import '/src/assets/styles/variables.scss';
+@import '/src/assets/styles/mixins.scss';
+
+button.basic {
+  padding: 10px;
+  background-color: $electric;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+
+  @include text($text-m, bold, $font-light);
+  text-align: center;
+
+  &:hover {
+    background: $amethyst;
+  }
+}

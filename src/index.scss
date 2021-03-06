@@ -1,0 +1,24 @@
+@import '/src/assets/styles/button.scss';
+@import '/src/assets/styles/input.scss';
+@import '/src/assets/styles/variables.scss';
+
+
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Mono';
+  background-color: $codLighter;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}

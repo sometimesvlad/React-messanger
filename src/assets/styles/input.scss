@@ -1,0 +1,16 @@
+@import '/src/assets/styles/variables.scss';
+@import '/src/assets/styles/mixins.scss';
+
+input.basic {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid $electric;
+  border-radius: 8px;
+  cursor: pointer;
+  @include text($text-m, bold, $font-light);
+  transition: 0.2s;
+
+  &:focus, &:hover {
+    border: 1px solid $amethyst;
+  }
+}
